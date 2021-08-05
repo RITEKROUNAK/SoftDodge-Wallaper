@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#dddee3</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDarkMenu">#FFFFFF</color>
+    <color name="colorPrimarybg">#FFFFFF</color>
+
+    <color name="colorAccent">#1071c1</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="light_white">#d4d4d4</color>
+    <color name="black">#000</color>
+    <color name="primary_text">#212121</color>
+    <color name="gray_color">#ccc</color>
+    <color name="primary_text_light">#868686</color>
+    <color name="light_gray">#dddee3</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_transparent">#3affffff</color>
+    <color name="white_transparent_done">#beffffff</color>
+    <color name="black_light">#333</color>
+    <color name="dark_gray">#9c9c9c</color>
+    <color name="blue">#2196F3</color>
+    <color name="green">#00b341</color>
+    <color name="red">#ec302b</color>
+    <color name="pruple">#a905b6</color>
+
+    <array name="dot_colors">
+        <item>#03A9F4</item>
+        <item>#E65100</item>
+        <item>#FFBB00</item>
+    </array>
+</resources>

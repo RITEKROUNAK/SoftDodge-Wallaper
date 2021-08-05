@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_layout_wallpaper_activity_container"
+    tools:context=".ui.activities.WallActivity">
+    <RelativeLayout
+        android:id="@+id/relative_layout_content"
+        android:layout_above="@+id/relative_layout_ads"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.sothree.slidinguppanel.SlidingUpPanelLayout
+            xmlns:sothree="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/sliding_layout_wallpaper_activit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            sothree:umanoPanelHeight="215dp"
+            sothree:umanoShadowHeight="4dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/image_view_wallpaper_activity_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <com.kinda.progressx.ProgressWheel
+                    android:id="@+id/progress_wheel"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    app:matProg_barColor="@color/white"
+                    app:matProg_progressIndeterminate="true" />
+                <uk.co.senab.photoview.PhotoView
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/photo_view_wallpaper_activity_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/appBarLayout"
+                    app:elevation="2dp"
+                    android:background="@color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.Toolbar
+                        app:elevation="2dp"
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@color/transparent"
+                        style="@style/ActionBar"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+                        />
+                </com.google.android.material.appbar.AppBarLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relative_activity_wallpaper_layout_panel_bottom"
+                android:background="#3f3069"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/panel_wallpaper"/>
+            </RelativeLayout>
+        </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+        <RelativeLayout
+            android:focusable="true"
+            android:clickable="true"
+            android:paddingTop="100dp"
+            android:visibility="gone"
+            android:elevation="4dp"
+            android:id="@+id/relative_layout_wallpaper_activity_comments"
+            android:layout_marginBottom="-5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:background="@drawable/comment_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+
+                    android:id="@+id/relative_layout_wallpaper_activity_comment_back"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <ImageView
+                        android:id="@+id/image_view_wallpaper_activity_comment_box_close"
+                        android:tint="@color/pruple"
+                        android:padding="5dp"
+                        android:layout_alignParentRight="true"
+                        app:srcCompat="@drawable/ic_down"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+                    <LinearLayout
+
+                        android:gravity="left"
+                        android:layout_marginRight="50dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+                        <ImageView
+                            android:tint="@color/pruple"
+                            android:padding="15dp"
+                            app:srcCompat="@drawable/ic_comment"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp" />
+                        <TextView
+                            android:id="@+id/text_view_wallpaper_activity_comment_count_box_count"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:gravity="center"
+                            android:textColor="@color/pruple"
+                            android:text="-- Comments"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <ScrollView
+                    android:background="@color/light_gray"
+                    android:layout_below="@+id/relative_layout_wallpaper_activity_comment_back"
+                    android:layout_above="@+id/relative_layout_wallpaper_activity_comment_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <ImageView
+                            android:layout_marginTop="70dp"
+                            android:contentDescription="@string/app_name"
+                            android:visibility="gone"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
+                            android:scaleType="fitXY"
+                            android:padding="40dp"
+                            android:tint="@color/colorPrimary"
+                            android:id="@+id/imageView_wallpaper_activity_empty_comment"
+                            app:srcCompat="@drawable/bg_empty"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <ProgressBar
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="200dp"
+                            style="?android:attr/progressBarStyleLarge"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:padding="8dp"
+                            android:id="@+id/progress_bar_wallpaper_activity_comment_list" />
+                    </RelativeLayout>
+                </ScrollView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycle_wallpaper_activity_view_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/relative_layout_wallpaper_activity_comment_section"
+                    android:layout_below="@+id/relative_layout_wallpaper_activity_comment_back"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="visible" />
+                <RelativeLayout
+
+                    android:layout_alignParentBottom="true"
+                    android:padding="7dp"
+                    android:background="@drawable/border_line_top_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relative_layout_wallpaper_activity_comment_section">
+                    <RelativeLayout
+                        android:background="@drawable/comment_bg_write"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                    <EditText
+
+                        android:hint="@string/write_comment"
+                        android:background="@color/transparent"
+                        android:padding="10dp"
+                        android:visibility="visible"
+                        android:layout_marginRight="40dp"
+                        android:textCursorDrawable="@null"
+                        android:inputType="textMultiLine"
+                        android:ems="10"
+                        android:id="@+id/edit_text_wallpaper_activity_comment_add"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:paddingLeft="10dp"
+                        android:background="@drawable/border_left_transparent"
+                        android:id="@+id/image_button_wallpaper_activity_comment_add"
+                        app:srcCompat="@drawable/ic_send"
+                        android:tint="@color/pruple"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+                    <ProgressBar
+
+                        android:background="@drawable/border_left_transparent"
+                        android:visibility="gone"
+                        style="?android:attr/progressBarStyleLarge"
+                        android:layout_width="40dp"
+                        android:layout_height="45dp"
+                        android:padding="8dp"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/progress_bar_wallpaper_activity_comment_add" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+        <include layout="@layout/apply_layout"/>
+        <ImageView
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="185dp"
+            android:visibility="visible"
+            android:id="@+id/image_view_wallpaper_activity_btn_share"
+            android:tint="@color/white"
+            android:padding="15dp"
+            app:srcCompat="@drawable/ic_share"
+            android:elevation="3dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_fab_share"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relative_layout_ads"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linear_layout_ads"
+            android:background="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

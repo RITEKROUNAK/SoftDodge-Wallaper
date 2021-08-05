@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        app:cardMaxElevation="0dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp">
+        <ImageView
+            android:id="@+id/image_view_item_packs_cover"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/bg_gradient_packs"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:id="@+id/text_view_item_packs_title"
+                    android:textSize="12dp"
+                    android:layout_margin="5dp"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="3"
+                    android:shadowColor="@color/black"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center|left"
+                    android:layout_alignParentLeft="true"
+                    android:text="More Then 100 packs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" />
+                <RelativeLayout
+                    android:background="?attr/selectableItemBackground"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:id="@+id/relative_layout_item_packs"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_alignParentRight="true"
+                        android:tint="@color/white"
+                        app:srcCompat="@drawable/ic_keyboard_arrow_right"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp" />
+                    <TextView
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:textSize="12dp"
+                        android:gravity="center|left"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="3"
+                        android:shadowColor="@color/black"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="MORE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:visibility="visible"
+                android:id="@+id/recycler_view_item_packs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:clipChildren="false"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1030238121301",
+    "project_id": "freshwalls-app",
+    "storage_bucket": "freshwalls-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030238121301:android:f2d4841e2dd5c2b6a493dc",
+        "android_client_info": {
+          "package_name": "com.ritek.freshwalls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030238121301-g1i9qh8fe2cicnqmrrlqqfr07a3mr1aj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ritek.freshwalls",
+            "certificate_hash": "b4591d28ca810ad2645c1be3dbb13c2f977806bd"
+          }
+        },
+        {
+          "client_id": "1030238121301-5hfq4s2cnkb6op9hmuv6tbhu26rndb7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXbZs4MR0gU_PeYWirj6qY3wdTSp6fI4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030238121301-5hfq4s2cnkb6op9hmuv6tbhu26rndb7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

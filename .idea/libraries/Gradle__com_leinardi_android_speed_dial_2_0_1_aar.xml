@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.leinardi.android:speed-dial:2.0.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2705a3f38a27dc20a394a8e9198641c5/jetified-speed-dial-2.0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2705a3f38a27dc20a394a8e9198641c5/jetified-speed-dial-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2705a3f38a27dc20a394a8e9198641c5/jetified-speed-dial-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2705a3f38a27dc20a394a8e9198641c5/jetified-speed-dial-2.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.leinardi.android/speed-dial/2.0.1/ea518207deb4f42d1e8297a1fe185a2c1e63997b/speed-dial-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.leinardi.android/speed-dial/2.0.1/906f3ec1067db09a5dac7e7814724940b408ef67/speed-dial-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

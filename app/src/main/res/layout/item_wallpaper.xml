@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:paddingLeft="2dp"
+    android:paddingRight="3dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="3dp"
+    >
+    <androidx.cardview.widget.CardView
+        app:cardMaxElevation="0dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:id="@+id/linear_layout_wallpaper_item_global"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="0dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/linear_layout_wallpaper_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#8640B4"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:id="@+id/image_view_wallpaper_item"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/placeholder" />
+                            <RelativeLayout
+                                android:visibility="visible"
+                                android:id="@+id/relative_layout_wallpaper_item_video"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:id="@+id/image_view_item_wallpaper_video"
+                                    android:layout_width="30dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/bg_video"
+                                    android:padding="2dp"
+                                    android:visibility="visible"
+                                    app:srcCompat='@drawable/ic_play' />
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:visibility="gone"
+                                android:id="@+id/relative_layout_wallpaper_item_gif"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:id="@+id/image_view_item_wallpaper_gif"
+                                    android:layout_width="30dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/bg_video"
+                                    android:padding="0dp"
+                                    android:visibility="visible"
+                                    app:srcCompat='@drawable/ic_gif' />
+                            </RelativeLayout>
+                            <TextView
+                                android:visibility="visible"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:textSize="12dp"
+                                android:textStyle="bold"
+                                android:text="REVIEW"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="7dp"
+                                android:paddingBottom="7dp"
+                                android:textColor="@android:color/white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:background="@drawable/bg_review"
+                                android:id="@+id/text_view_review_wallpaper_item" />
+                            <ImageView
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="10dp"
+                                android:visibility="visible"
+                                android:id="@+id/image_view_item_wallpaper_premium"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                app:srcCompat='@drawable/ic_premium'
+                                android:layout_width="25dp"
+                                android:layout_height="25dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/relative_layout_wallpaper_item"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_marginRight="60dp"
+                                android:orientation="vertical"
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:paddingLeft="10dp">
+                                <TextView
+                                    android:textDirection="ltr"
+                                    android:id="@+id/text_view_wallpaper_item_title"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:textStyle="bold"
+                                    android:text="The Sunset"
+                                    android:textColor="@color/white"
+                                    android:textSize="14dp" />
+                                <TextView
+                                    android:textDirection="ltr"
+                                    android:id="@+id/text_view_wallpaper_item_user"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:text="Sayntan Maity"
+                                    android:textColor="@color/white"
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/image_view_fav_wallpaper_item"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="12dp"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/ic_favorite_done" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

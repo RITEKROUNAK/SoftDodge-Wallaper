@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Gavras:GIFView:v1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/342bcd14adef4e4f010ce4208b20d927/jetified-GIFView-v1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/342bcd14adef4e4f010ce4208b20d927/jetified-GIFView-v1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/342bcd14adef4e4f010ce4208b20d927/jetified-GIFView-v1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Gavras/GIFView/v1.2/bbdae427fab29b5b96c2f23df5142e7802d1722f/GIFView-v1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

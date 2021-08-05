@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">SoftDodge Wallpaper</string>
+    <string name="panel_url">mybookstore.team</string>
+    <string name="policy_privacy_url">https://mybookstore.team/terms.html</string>
+
+
+    <string name="facebook_app_id">2330675377215489</string>
+    <string name="fb_login_protocol_scheme">fb2330675377215489</string>
+
+
+    <string name="download_more_from_link">Get more from == http://google.com ==</string>
+    <string name="share_via">Shared via</string>
+
+    <string name="my_google_play">https://play.google.com/store/apps/dev?id=7683785718851131527</string>
+
+
+
+
+
+
+    <string name="DownloadFolder">/Download/Wallpaper/</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_favorites">Favorites</string>
+    <string name="text_schedules">Schedules</string>
+    <string name="text_music">Music</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_server">Check your internet connexion</string>
+    <string name="try_again">Try agin</string>
+
+    <string name="download">Download</string>
+    <string name="set">Set</string>
+    <string name="favorite">Favorite</string>
+    <string name="comments">Comments</string>
+    <string name="write_comment">Write a comment</string>
+    <string name="operation_progress">Operation in progress</string>
+    <string name="comment_hidden">This comment has been hidden</string>
+    <string name="retry">RETRY</string>
+    <string name="no_connexion">Connection problem</string>
+    <string name="now_time">Now</string>
+    <string name="progress_login">Work in progress</string>
+    <string name="message_sended">Message has been sent successfully</string>
+    <string name="title_notification">Enable push notifiction</string>
+    <string name="label_notification">Receive push notification</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="label_cache">Clear locally cached images. Currently : </string>
+    <string name="update_now">Update Now</string>
+    <string name="contact_us">Contact us</string>
+    <string name="policy_privacy">Policy privacy</string>
+    <string name="version_label">Current version</string>
+    <string name="hint_message">Your message</string>
+    <string name="send_support">Send Message</string>
+    <string name="image_upload_error">Please select a wallpaper</string>
+    <string name="color_tags_upload_error">Please select tags</string>
+    <string name="edit_text_upload_title_error">Title very short , please a write correct title</string>
+    <string name="welcome_login_text">Login to comment , upload your wallpaper ....</string>
+    <string name="account_disabled">Sorry your account has been locked</string>
+    <string name="login_gg_text">Login with google</string>
+    <string name="message_logout">You are successfully logout</string>
+
+    <string name="hint_email">E-mail</string>
+    <string name="hint_name">Full name</string>
+    <string name="error_mail_valide">Please enter a valid E-mail</string>
+    <string name="error_short_value">Your field is too short</string>
+    <string name="exit">Exit</string>
+    <string name="please_login">Sign in and start using full Application features</string>
+    <string name="please_login_short">Please sign in/up</string>
+    <string name="action_rate">Rate this App</string>
+    <string name="loading">Laoading</string>
+    <string name="description_subsribte">Subscribe now and get premium content also enjoy an ad-free experiance . and focus on the  essential! </string>
+    <string name="title_upload">Upload Yours</string>
+    <string name="set_alarm">SET ALARM</string>
+    <string name="set_notification">SET NOTIFICATION</string>
+    <string name="categories">Categories : </string>
+    <string name="tags">Tags : </string>
+    <string name="description">Description :</string>
+    <string name="categories_list">Categories list</string>
+    <string name="popular_searches">Popular Searches</string>
+    <string name="download_ringtone_from">Download it from :</string>
+
+    <string name="title_slide_1">Welcome to Wallpaper App</string>
+    <string name="description_slide_1">Thank you for download Wallpaper App ,Enjoy with this Amazing andoid app with cool features .</string>
+
+    <string name="title_slide_2">Everything organised here</string>
+    <string name="description_slide_2">You can find any content easily by using categories , languages , tags .</string>
+
+    <string name="title_slide_3">Be Creative </string>
+    <string name="description_slide_3">Register now and share you creative idea with many users and be one of our community .</string>
+
+    <string name="title_slide_4">Download and share</string>
+    <string name="description_slide_4">Dwonload Any content and keep it on your device to watch it on offline mode , and share it with your frients  </string>
+
+    <string name="title_slide_5">Favorites</string>
+    <string name="description_slide_5">Create your favorite list and save any content to view it later . </string>
+
+    <string name="title_slide_6">Give your Reactions </string>
+    <string name="description_slide_6">Browse best wallpapers collection  and give your reaction like,report ...</string>
+
+    <string name="title_slide_8">Be Premium,Take your freedom</string>
+    <string name="description_slide_8">Subscribe with a small price , and take your freedom by remove all ads . and download the premuim content</string>
+
+
+    <string name="report_ringtone">Report this Wallpaper</string>
+    <string name="skip">Skip</string>
+    <string name="rate_our_app">Rate Our App</string>
+    <string name="rate_our_app_message">If you love our application ,please take a moment to rate it .</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="later">Later</string>
+    <string name="no_again">Don’t ask again</string>
+    <string name="cancel">Canel</string>
+    <string name="dialog_text_no_ads_title">Turn Off ads</string>
+    <string name="dialog_text_no_premium_wallpapers_title">Premium Content</string>
+    <string name="dialog_text_no_premium_wallpapers_description">Get unlimited wallpapers</string>
+    <string name="dialog_text_no_ads_description">Use App more free without ads</string>
+    <string name="my_profile">My profile</string>
+    <string name="login">Login / Register</string>
+    <string name="Logout">Logout</string>
+    <string name="share_this_app">Share this App</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="edit_my_profile">Edit my profile</string>
+    <string name="hint_facebook">Facebook url</string>
+    <string name="hint_twitter">Twitter url</string>
+    <string name="hint_instragram">Instagram Url</string>
+    <string name="invalide_url">Invalide Url</string>
+    <string name="loading_user_data">Loading user data</string>
+    <string name="permission_desc">Now we need your permission to continue use the application perfectly</string>
+    <string name="permission_title">Everything is okey</string>
+    <string name="gif_upload_error">Please select an image</string>
+    <string name="image_upload_success">Your wallpaper image has been successfully uploaded</string>
+    <string name="video_upload_success">Your wallpaper video has been successfully uploaded</string>
+    <string name="gif_upload_success">Your wallpaper gif has been successfully uploaded</string>
+    <string name="save">Save</string>
+    <string name="home_lock"><![CDATA[Set As Home & Lock]]></string>
+    <string name="applying">Applying</string>
+    <string name="upload_gif">Upload GIF</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_wallpaper_gif">Upload wallpaper GIF</string>
+    <string name="upload_wallpaper_video">Upload wallpaper Video</string>
+    <string name="upload_wallpaper_image">Upload wallpaper Image</string>
+    <array name="colors_load">
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+    </array>
+    <string name="accept_privacy_policy_error">You should accept the privacy policy before login</string>
+
+</resources>

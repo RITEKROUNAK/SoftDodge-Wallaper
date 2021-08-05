@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".ui.activities.PermissionActivity">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentTop="true"
+                android:textAlignment="center"
+                android:textColor="@color/primary_text"
+                android:text="@string/permission_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_permission"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+            <TextView
+                android:padding="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:textColor="@color/primary_text_light"
+                android:text="@string/permission_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_allow_permission"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="40dp">
+            <TextView
+                android:background="@drawable/gradient_dialog_btn"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="ALLOW PERMISSION"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

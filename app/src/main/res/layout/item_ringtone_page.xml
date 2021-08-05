@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:padding="2dp"
+            android:progressDrawable="@drawable/bg_progress_item_2"
+            android:progress="0"
+            android:max="1000"
+            android:id="@+id/progress_bar_item_ringtone_page_background"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text_view_item_ringtone_premium"
+                android:textSize="16dp"
+                android:layout_marginTop="18dp"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/white"
+                android:background="#d99815"
+                android:text="Premium"
+                android:padding="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:id="@+id/relative_layout_controlers"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/border_circle"
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+                <ProgressBar
+
+                    android:id="@+id/progress_bar_item_ringtone_page_play"
+                    android:visibility="gone"
+                    android:max="100"
+                    android:progress="1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:indeterminate="true"
+                    android:indeterminateTintMode="src_in"
+                    android:indeterminateTint="@color/white"
+                    />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/image_view_item_ringtone_page_play"
+                    android:padding="10dp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/ic_play"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/image_view_item_ringtone_page_pause"
+                    android:visibility="gone"
+                    android:padding="10dp"
+                    android:tint="@color/white"
+                    app:srcCompat="@drawable/ic_pause"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp" />
+            </RelativeLayout>
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/text_view_item_ringtone_page_title"
+                android:textAlignment="center"
+                android:layout_above="@id/relative_layout_controlers"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/text_view_item_ringtone_page_duration"
+                android:textAlignment="center"
+                android:layout_below="@id/relative_layout_controlers"
+                android:textColor="@color/white"
+                android:text="--:--"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
